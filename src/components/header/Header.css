@@ -1,3 +1,59 @@
+.header {
+  display: flex;
+  padding: 6px 20px;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px #ccc;
+  align-items: center;
+}
+
 .header-left > img {
-  height: 1.5rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+.header-mid {
+  display: flex;
+  align-items: center;
+  background: whitesmoke;
+  border-radius: 20px;
+  padding: 0px 10px;
+  height: 35px;
+  width: 40%;
+  color: grey;
+}
+
+.header-mid input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  margin-left: 4px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.header-info {
+  display: flex;
+  gap: 7px;
+}
+
+.header-right .MuiButtonBase-root {
+  width: 32px;
+  height: 32px;
+  background: #e4e6eb;
+}
+
+.header-right .MuiButtonBase-root:hover {
+  background: #e4e6ef;
+}
+
+.avatar {
+  position: relative;
 }

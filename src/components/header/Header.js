@@ -4,7 +4,7 @@ import logo from "../../assets/facebook.png";
 import SearchIcon from "@mui/icons-material/Search";
 import { BsMessenger } from "react-icons/bs";
 import NotificationsIcon from "@mui/icons-material/Notifications";
-import { Avatar } from "@mui/material";
+import { Avatar, IconButton, Tooltip } from "@mui/material";
 
 const Header = () => {
   return (
@@ -15,15 +15,34 @@ const Header = () => {
         </div>
 
         <div className="header-mid">
-          <SearchIcon />
+          <SearchIcon style={{ fontSize: "18px" }} />
           <input placeholder="Search Facebook" />
         </div>
 
         <div className="header-right">
           <div className="header-info">
-            <BsMessenger />
-            <NotificationsIcon />
-            <Avatar />
+            <Tooltip title="Messenger">
+              <IconButton>
+                <BsMessenger
+                  style={{
+                    color: "black",
+                  }}
+                  size={15}
+                />
+              </IconButton>
+            </Tooltip>
+            <Tooltip title="Notifications">
+              <IconButton>
+                <NotificationsIcon
+                  style={{ color: "black", fontSize: "20px" }}
+                />
+              </IconButton>
+            </Tooltip>
+          </div>
+          <div className="avatar">
+            <Tooltip title="Account">
+              <Avatar sx={{ width: 35, height: 35 }} />
+            </Tooltip>
           </div>
         </div>
       </div>
