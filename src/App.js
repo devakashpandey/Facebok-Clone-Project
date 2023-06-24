@@ -1,9 +1,15 @@
 import "./App.css";
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <>
-      <div>AKASH</div>
+      {/*----- HEADER -----*/}
+      <Header />
+      {/*------ BODY ------*/}
+      {/* SIDEBAR */}
+      {/* POST */}
+      {/* RIGHT SIDEBAR */}
     </>
   );
 }
