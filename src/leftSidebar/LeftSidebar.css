@@ -1,18 +1,22 @@
 .left-sidebar {
   margin-top: 15px;
+  flex: 0.31;
+  position: sticky;
+  top: 0;
 }
 
 .options {
   display: flex;
   align-items: center;
   gap: 10px;
-
   padding: 7px 20px;
   cursor: pointer;
+  width: 60%;
 }
 
 .options:hover {
   background: #e4e6eb;
+  border-radius: 8px;
 }
 
 .options > span {

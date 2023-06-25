@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/header/Header";
+import Feed from "./feeds/Feed";
 import LeftSidebar from "./leftSidebar/LeftSidebar";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       {/*---- LEFT SIDEBAR  ----*/}
       <div className="app-body">
         <LeftSidebar />
+        <Feed />
       </div>
 
       {/* POST */}
