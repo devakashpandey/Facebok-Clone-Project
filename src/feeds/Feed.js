@@ -3,7 +3,11 @@ import React from "react";
 const Feed = () => {
   return (
     <>
-      <div className="feed">i am feed</div>
+      <div className="feed">
+        {/* reels section */}
+        {/* post upload section */}
+        {/* all posts section */}
+      </div>
     </>
   );
 };
