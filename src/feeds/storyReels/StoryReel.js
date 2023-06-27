@@ -45,6 +45,16 @@ const StoryReel = () => {
           <Avatar />
           <h4>Yash Pandey</h4>
         </div>
+
+        <div
+          className="story"
+          style={{
+            backgroundImage: `url("https://wallpapercave.com/wp/wp4829130.jpg")`,
+          }}
+        >
+          <Avatar />
+          <h4>Shiv Kumar</h4>
+        </div>
       </div>
     </>
   );

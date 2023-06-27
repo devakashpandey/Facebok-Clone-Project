@@ -4,7 +4,7 @@ import "./RightSidebar.css";
 const RightSidebar = () => {
   return (
     <>
-      <div>RIGHT SIDEBAR</div>
+      <div className="right-sidebar">RIGHT SIDEBAR</div>
     </>
   );
 };

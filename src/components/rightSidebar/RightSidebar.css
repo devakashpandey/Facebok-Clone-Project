@@ -1,0 +1,6 @@
+.right-sidebar {
+  margin: 20px 50px;
+  display: flex;
+  flex: 0.4;
+  margin-right: 40px;
+}
