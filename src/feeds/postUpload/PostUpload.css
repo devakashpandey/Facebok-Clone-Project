@@ -1,0 +1,54 @@
+.post-upload {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 95%;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 5px;
+  box-shadow: 2px 2px 4px #ccc;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.top-section form {
+  background: whitesmoke;
+  padding: 10px;
+  flex: 1;
+  border-radius: 20px;
+}
+
+.top-section form input {
+  outline: none;
+  border: none;
+  width: 100%;
+  background: transparent;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+}
+
+.upload-option {
+  display: flex;
+  align-items: center;
+  padding: 7px 30px;
+  margin-top: 10px;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: grey;
+  cursor: pointer;
+}
+.upload-option:hover {
+  background: whitesmoke;
+  border-radius: 8px;
+}
