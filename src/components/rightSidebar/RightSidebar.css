@@ -3,4 +3,6 @@
   display: flex;
   flex: 0.4;
   margin-right: 40px;
+  position: sticky;
+  top: 10px;
 }

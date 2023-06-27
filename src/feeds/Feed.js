@@ -1,6 +1,7 @@
 import React from "react";
 import StoryReel from "./storyReels/StoryReel";
 import "./Feed.css";
+import PostUpload from "./postUpload/PostUpload";
 
 const Feed = () => {
   return (
@@ -9,6 +10,7 @@ const Feed = () => {
         {/* reels section */}
         <StoryReel />
         {/* post upload section */}
+        <PostUpload />
         {/* all posts section */}
       </div>
     </>
