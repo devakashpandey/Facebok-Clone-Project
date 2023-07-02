@@ -14,28 +14,28 @@ const Post = ({ photoUrl, postImg, userName, time, message }) => {
       <div className="post">
         <div className="post_top">
           <div className="name-section">
-            <Avatar src={myPic} sx={{ height: "45px", width: "45px" }} />
+            <Avatar
+              src={photoUrl}
+              sx={{ height: "35px", width: "35px" }}
+              style={{ cursor: "pointer" }}
+            />
             <div className="post-info">
-              <h4>Akash Pandey</h4>
+              <h4>{userName}</h4>
               <div className="time">
                 {" "}
-                <p>22 June 2023 · </p>
+                <p>{time} · </p>
                 <MdOutlinePublic size={12} title="Public" />
               </div>
             </div>
           </div>
-
-          <FiMoreHorizontal
-            style={{ marginRight: "15px", marginTop: "5px", color: "#65676b" }}
-          />
+          <div className="more-option">
+            <FiMoreHorizontal />
+          </div>
         </div>
 
         <div className="post_middle">
-          <p>Message Body</p>
-          <img
-            src="https://tse1.mm.bing.net/th?id=OIP.NbfPECA64xbFnmW58MbWDQHaEo&pid=Api&P=0&h=180"
-            alt="post-image"
-          />
+          <p>{message}</p>
+          {postImg && <img src={postImg} alt="post-image" />}
         </div>
 
         <div className="post_bottom">
@@ -45,7 +45,7 @@ const Post = ({ photoUrl, postImg, userName, time, message }) => {
           <div className="post_bottom_options">
             <GoComment /> <p>Comment</p>
           </div>
-          <div className="post_bottom_options">
+          <div className="post_bottom_options ">
             <PiShareFat size={18} /> <p>Share</p>
           </div>
         </div>

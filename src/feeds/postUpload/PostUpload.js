@@ -11,7 +11,7 @@ const PostUpload = () => {
     <>
       <div className="post-upload">
         <div className="top-section">
-          <Avatar src={myPic} sx={{ height: "45px", width: "45px" }} />
+          <Avatar src={myPic} sx={{ height: "36px", width: "36px" }} />
           <form>
             <input placeholder="What's on your mind, Akash?" />
           </form>
