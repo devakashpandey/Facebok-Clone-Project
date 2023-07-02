@@ -2,7 +2,7 @@ import React from "react";
 import "./LeftSidebar.css";
 import { AiFillHome } from "react-icons/ai";
 import { Avatar } from "@mui/material";
-import pic from "./../assets/pic.png";
+import pic from "../../assets/pic.png";
 import { MdLiveTv } from "react-icons/md";
 import { FaUserFriends } from "react-icons/fa";
 import { FcShop } from "react-icons/fc";

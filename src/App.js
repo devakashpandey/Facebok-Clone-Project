@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 import RightSidebar from "./components/rightSidebar/RightSidebar";
 import Feed from "./feeds/Feed";
-import LeftSidebar from "./leftSidebar/LeftSidebar";
+import LeftSidebar from "./components/leftSidebar/LeftSidebar";
 
 function App() {
   return (
